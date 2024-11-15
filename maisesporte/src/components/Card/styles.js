@@ -22,6 +22,7 @@ export const Description = styled.div`
     justify-content: space-between;
     align-items: center;
     color: #fb8c00;
+    text-decoration: none;
   }
   h4 {
     font-size: 1rem;

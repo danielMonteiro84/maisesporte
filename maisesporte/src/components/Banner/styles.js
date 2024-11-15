@@ -24,7 +24,7 @@ export const Text = styled.div`
     font-size: 22px;
   }
   span {
-    background-color: #fdd835;
+    background-color: #fb8c00;
     border: 0;
     color: #ffffff;
     font-size: 25px;

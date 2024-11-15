@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  padding: 90px 150px;
+  padding: 40px 150px;
   height: 96px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 3px solid rgba(0, 0, 0, 0.1);
-  background: linear-gradient(to right, #7ed957, #33a9ce);
+  background: linear-gradient(to right, #e53935, #fb8c00);
 `;
 
 export const Logo = styled.div`
@@ -28,14 +28,15 @@ export const Menu = styled.div`
     font-weight: bold;
     list-style-type: none;
     li {
-      border: 3px solid black;
+      border: 3px solid #444444;
       border-radius: 10px;
-      padding: 10px;
+      padding: 5px;
       span{
-      font-size: 2rem;
-      font-weight: 300:
+      color: #444444;
+      font-size: 1rem;
+      font-weight: 200:
       }
-      &:hover{
+      :hover{
       color: white;
       font-weight: bold;
       cursor: pointer
