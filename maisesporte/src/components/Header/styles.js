@@ -7,7 +7,7 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   border-bottom: 3px solid rgba(0, 0, 0, 0.1);
-  background-color: white;
+  background: linear-gradient(to right, #7ed957, #33a9ce);
 `;
 
 export const Logo = styled.div`
@@ -16,7 +16,30 @@ export const Logo = styled.div`
   align-items: center;
   img {
     width: 250px;
+    border-radius: 10px;
   }
 `;
 
-export const Menu = styled.div``;
+export const Menu = styled.div`
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    list-style-type: none;
+    li {
+      border: 3px solid black;
+      border-radius: 10px;
+      padding: 10px;
+      span{
+      font-size: 2rem;
+      font-weight: 300:
+      }
+      &:hover{
+      color: white;
+      font-weight: bold;
+      cursor: pointer
+      }
+    }
+  }
+`;
