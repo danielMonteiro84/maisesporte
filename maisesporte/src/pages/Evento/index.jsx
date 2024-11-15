@@ -1,4 +1,6 @@
 import React, { Fragment } from "react";
+import Input from "../../components/Input";
+import TextArea from "../../components/TextArea";
 import TopBanner from "../../components/TopBanner";
 import {
   Container,
@@ -55,15 +57,9 @@ const Evento = () => {
           </ProfileContact>
           <ProfileFormContact>
             <form>
-              <input type="text" placeholder="Nome:" />
-              <input type="text" placeholder="E-mail:" />
-              <textarea
-                name=""
-                id=""
-                cols="30"
-                rows="10"
-                placeholder="Mensagem:"
-              />
+              <Input type="text" placeholder="Nome:" />
+              <Input type="text" placeholder="E-mail:" />
+              <TextArea placeholder="Mensagem:"></TextArea>
               <button>Enviar mensagem</button>
             </form>
           </ProfileFormContact>
