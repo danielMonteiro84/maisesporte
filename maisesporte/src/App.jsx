@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import Evento from "./pages/Evento";
 import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 import Global from "./styles/Global";
@@ -8,6 +9,7 @@ function App() {
   return (
     <div>
       <Header />
+      <Evento />
       <Banner />
       <Home />
       <Footer />
