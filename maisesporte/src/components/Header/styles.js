@@ -27,19 +27,23 @@ export const Menu = styled.div`
     align-items: center;
     font-weight: bold;
     list-style-type: none;
+
     li {
       border: 3px solid #444444;
       border-radius: 10px;
       padding: 5px;
-      span{
-      color: #444444;
-      font-size: 1rem;
-      font-weight: 200:
+      a {
+        text-decoration: none;
       }
-      :hover{
-      color: white;
-      font-weight: bold;
-      cursor: pointer
+      span {
+        color: #444444;
+        font-size: 1rem;
+        font-weight: bold;
+      }
+      :hover {
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
       }
     }
   }
