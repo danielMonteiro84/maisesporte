@@ -8,7 +8,7 @@ const Footer = () => {
       <Container>
         <Item>
           <img src="/assets/logo.png" alt="" />
-          <p>testando testando testando</p>
+          <p>Siga-nos em nossas redes socias!</p>
           <nav>
             <li>
               <span>
