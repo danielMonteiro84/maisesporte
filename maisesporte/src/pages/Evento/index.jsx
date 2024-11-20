@@ -39,6 +39,7 @@ const Evento = () => {
               inclusão e saúde, sendo um importante ponto de encontro para
               atletas amadores e profissionais.
             </p>
+            <Button>Inscreva-se</Button>
           </Description>
         </Left>
         <Right>
